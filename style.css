@@ -115,7 +115,7 @@ em{
     color: black;
 }
 .contact-information a:hover {
-    color: blue;
+    color: rgb(191,255,255);
 }
 #presentation{
     height: 40%;
