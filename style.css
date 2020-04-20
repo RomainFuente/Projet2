@@ -161,6 +161,20 @@ em{
     justify-content: flex-start;
     align-items: flex-start;
 } 
+.job-qualification a{
+    font-size: 0.9em;
+    color: black;
+    transform: scale(1), translate(0);
+    transition: all 400ms 100ms;
+}
+.job-qualification a:hover{
+    display: inline-block;
+    transform: scale(1.5), translate(40px,0);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(118,105,95,0.5);
+    color: rgb(191,255,255); 
+}
 .society{
     width: 60%;
     margin-left: 15%;
