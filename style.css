@@ -22,8 +22,14 @@
 }
 body{
     margin: 0;
+    position: relative;
+    background: url(images/background-body.jpg) fixed;
+    z-index: -2;
 }
 #bloc-page{
+    position: relative;
+    z-index: 2;
+    background-color: white;
     font-family: roboto-regular, sans-serif;
     width: 1000px;
     max-width: 100%;
