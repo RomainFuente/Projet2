@@ -206,16 +206,14 @@ nav h2{
     margin-right: 15px;
     opacity: 0.7;
 }
-.education-title, .experience-title, .recommandations-title{
+.title{
     display: flex;
     align-items: center;
     border-bottom: solid 2px #9e9e9e;
+    margin: 30px 0 30px 0;
 }
 .curriculum h2{
     margin-bottom: 10px;
-}
-.education-title, .experience-title, .recommandations-title{
-    margin: 30px 0 30px 0;
 }
 .contact{
     width: 45%;
@@ -280,23 +278,13 @@ nav h2{
         width: 100%;
         padding: 0;
     }
-    #curriculum img {
-    margin: 7px;
-    }
-    .education-title, .experience-title, .recommandations-title{
+    .title{
         margin: 8px;
-    }
-    .education-title img, .experience-title img, .recommandations-titles img{
-        width: 20px;
     }
     .date-place{
         width: 100px;
         min-width: 100px;
         font-size: 0.9em;
-    }
-    .date-place img{
-        min-width: 10px;  
-        max-width: 10px;   
     }
     .society{
         margin-left: 30px;
@@ -304,6 +292,7 @@ nav h2{
     .society h3{
         font-size: 0.9em;
         margin-bottom: 10px;
+        font-weight: bold;
     }
     .society p, .society h4{
         margin: 0 0 10px 0;
